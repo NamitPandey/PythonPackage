@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: django-highcharts-series
+Version: 0.0.1
+Summary: will create highchart series which can be implemented to highcharts
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: ## Django Highcharts series
+        
+        This will create a series for line/column graph just by passing in the data and
+        the name of the column/columns as a list.
+        
+        ## Installation
+        Run the following to install:
+        
+        ''' python 
+        pip install django-highcharts-series
+        '''
+        
+        ## Usuage
+        
+        ''' python
+        from django_highcharts_series import LINE_GRAPH
+        
+        series, category = LINE_GRAPH(data, [column_name], category_column)
+        
+        '''
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Django :: 2.2.5
+Classifier: License :: MIT Approved
+Classifier: Operation System :: OS Independent
+Description-Content-Type: text/markdown
